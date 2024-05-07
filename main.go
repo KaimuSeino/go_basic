@@ -1,9 +1,5 @@
 package main
 
-import (
-	pointershadowing "go-basics/pointer-shadowing"
-)
-
 const secret = "abc"
 
 type Os int
@@ -14,17 +10,17 @@ const (
 	Linux
 )
 
+func main() {
+	// slicemap.Slice()
+	// slicemap.Map()
+}
+
 // 一括に値を定義している
 // var (
 // 	i int
 // 	s string
 // 	b bool
 // )
-
-func main() {
-	// pointershadowing.Pointer()
-	pointershadowing.Shadowing()
-}
 
 // fmt.Println(calculator.Offset)
 // fmt.Println(calculator.Sum(2, 3))
