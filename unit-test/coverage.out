@@ -1,0 +1,6 @@
+mode: set
+go-basics/unit-test/unitTest.go:3.24,5.2 1 1
+go-basics/unit-test/unitTest.go:7.31,8.12 1 1
+go-basics/unit-test/unitTest.go:8.12,10.3 1 1
+go-basics/unit-test/unitTest.go:11.2,11.32 1 1
+go-basics/unit-test/unitTest.go:14.18,23.2 0 0
