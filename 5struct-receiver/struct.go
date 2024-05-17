@@ -42,7 +42,10 @@ func StructReceiver() {
 
 }
 
-func (task Task) extendEstimate() {
+// 値receverを持つメソッドを定義
+// 値receiverは受け取った構造体のコピーに対してメソッド内の操作を行うので値が変更されない。
+func (task Task) extendEstimate() { // このメソッドが受け取るある型から生成された実態のことをreceiverという
+	// 特定の型から生成された実態に対してメソッドを追加できる
 	task.Estimate += 10
 }
 
